@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body,
+  html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main4 {
+    margin-top: 20px;
+    height: 600px;
+    width: 400px;
+    padding: 0vh 0vh 3vh 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    border: 1px solid #8da3a3;
+    margin-bottom: 20px;
+  }
+  
+  .main4 h1 {
+    font-size: 25px;
+    font-weight: 500;
+
+  }
+  .content4 {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 13px 13px 13px 0px;
+  }
+  .profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 20px;
+    width: 100%;
+  }
+.profile p{
+    width: 100%;
+}
+  .names{
+    width: 81%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .names img{
+    height: 100px;
+    width: 100px;
+    border-radius: 54%;
+    object-fit: cover;
+  }
+
+  .nameemail{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: self-start;
+    height: 115px;
+  }
+  .nameemail img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    position:absolute;
+    top: 50px;
+    left: 80px;
+  }
+  
+  .nameemail h2{
+    font-size: 15px;
+  }
+  .nameemail h3{
+    font-size: 20px;
+    font-weight: 600;
+  }
